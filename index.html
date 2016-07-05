@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+    <title>Debby's Website</title>
+    <meta name ="viewport" content="width=divice-width,initial-scale=1.0"> 
+    <link type="text/css" rel="stylesheet" href="stylesheet.css">
+    <style> 
+     ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  /* Firefox */
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  /* Safari+Chrome */
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  /* Opera */
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+ul li a{
+  -webkit-transform:rotate(-6deg);
+  -o-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+ul li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+ul li a:hover,ul li a:focus{
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+  }
+  ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:10em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  -moz-transition:-moz-transform .15s linear;
+  -o-transition:-o-transform .15s linear;
+  -webkit-transition:-webkit-transform .15s linear;
+}
+ul li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+  background:#cfc;
+}
+ul li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+  background:#ccf;
+}
+  ul.rig {
+	list-style: none;
+	font-size: 0px;
+	margin-left: -2.5%; /* should match li left margin */
+}
+ul.rig li {
+	display: inline-block;
+	padding: 10px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #ddd;
+	font-size: 32px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ul.rig li img {
+	max-width: 100%;
+	height: auto;
+	margin: 0 0 10px;
+}
+ul.rig li h3 {
+	margin: 0 0 5px;
+}
+ul.rig li p {
+	font-size:1.20em;
+	line-height: 1.5em;
+	color: #999;
+}
+/* class for 2 columns */
+ul.rig.columns-2 li {
+	width: 47.5%; 
+}
+/* class for 3 columns */
+ul.rig.columns-3 li {
+	width: 30.83%; 
+}
+ 
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.rig {
+		margin-left: 0;
+	}
+	ul.rig li {
+		width: 100% !important; /* over-ride all li styles */
+		margin: 0 0 20px;
+	}
+}
+    </style>
+    </head>
+    <body>
+    	<div id="home-gallery" class="home-gallery clearfix">
+				
+			<div style="overflow: hidden; position: relative;" class="flex-viewport"><div style="width: 1200%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);" class="gallery-wrap">
+					<ul style="width: 560px; height:139px; float: left; display: block;" class="item-container">
+																				
+ </ul>
+				</div></div><ul class="flex-direction-nav"><li></li><li></li></ul></div>
+	<ul class="rig columns-3">
+	<li>
+		
+		<a href="https://wiki.scratch.mit.edu/wiki/Scratch">
+  <img src="scratch.png" alt="lush" style="width:76px;height:88px;border:0;">
+</a>
+		<h3>Scratch</h3>
+		<p>Scratch is a free educational programming language that was developed by the Lifelong Kindergarten Group at the Massachusetts Institute of Technology (MIT) with over 11 million registered users and 14 million shared projects.</p>
+	</li>
+	<li>
+	  	<a href="https://wiki.scratch.mit.edu/wiki/Scratch">
+  <img src="scratch.png" alt="lush" style="width:76px;height:88px;border:0;">
+</a>
+		<!--<h3> The American Dream</h3>
+		<p>Education is essential when it comes to achieving the "American Dream," which is highly debatable. The American Dream, however, for the Hispanic communiy is very alive. According to a survey taken in Hollywood, only 17% of people believe educational oppurtunities should be provided by non-profit organizations,which is alarming. The lack of education within the Hispanic community is an issue that has to be targeted. Outof 130 responses, only 32 people had a MA or PhD, highlighting the problem.</p>
+	</li>
+	<li>
+	
+	<a href="http://cse-www.pltw.org/~marikmjt/website/html//Computer_science.html">
+  <img src="..image/checkerboard.PNG" alt="lush" style="width:76px;height:88px;border:0;">
+</a>
+		<h3> Checker board</h3>
+		<p>Mobile devices continue to grow in popularity year after year. The Bootstrap framework is feature rich and offers several benefits to those using it. In class we began working with bootstrap do expand our knowledge and become better coders. The screenshot above leades directly to an html file that shows bootstrap code in action. By altering cotainer classes and height the above pattern was created. To learn more about how bootstrap works click the picture above!</p>
+	</li>
+	<li>
+		<a href="https://www.arduino.cc/en/Tutorial/HomePage">
+  <img src="../image/image1.gif" alt="lush" style="width:76px;height:88px;border:0;">
+</a>
+		<h3>Arduino</h3>
+		<p>Arduino is a software company, project, and user community that designs and manufactures computer open-source hardware, open-source software, and microcontroller-based kits for building digital devices and interactive objects that can sense and control physical devices.</p>
+	</li>
+	<li>
+		</div>
+
+    </body>
+-->
