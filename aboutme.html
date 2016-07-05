@@ -195,65 +195,105 @@ ul.rig.columns-3 li {
 		width: 100% !important; /* over-ride all li styles */
 		margin: 0 0 20px;
 	}
+
+#about {
+  text-align:center;
+    padding-left:5%
+    color: rgb(0, 138, 46);
+  }
+  .first {
+ -webkit-animation: bannermove 30s linear infinite;
+    -moz-animation: bannermove 30s linear infinite;
+     -ms-animation: bannermove 30s linear infinite;
+      -o-animation: bannermove 30s linear infinite;
+         animation: bannermove 30s linear infinite;
 }
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+.photobanner {
+ height: 233px;
+ width: 3550px;
+ margin-bottom: 80px;
+}
+ 
+.photobanner img {
+ -webkit-transition: all 0.5s ease;
+ -moz-transition: all 0.5s ease;
+ -o-transition: all 0.5s ease;
+ -ms-transition: all 0.5s ease;
+ transition: all 0.5s ease;
+}
+ 
+.photobanner img:hover {
+ -webkit-transform: scale(1.1);
+ -moz-transform: scale(1.1);
+ -o-transform: scale(1.1);
+ -ms-transform: scale(1.1);
+ transform: scale(1.1);
+ cursor: pointer;
+ 
+ -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+ box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
     </style>
     </head>
     <body>
-<div id="wrapper">
-         <div id="callout">
-         </div>
-         <nav>
-             <ul>
-          <li><a href="index.html">Girls Code</a></li>
-      <li><a href="aboutme.html">About me!</a></li>
-      <li><a href="#">Help page</a></li>
-      <li><a href="#">Suggestions</a></li>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Photo Gallery</a></li>
- </ul>
- <div class="clearfix"></div>
- </nav>
-    <div class= "banner"> <a href="#"><img src="banner.jpg"  width="600" height="300" alt="Make Image responsive"></a></div>
-    	<div id="home-gallery" class="home-gallery clearfix">
-				
-			<div style="overflow: hidden; position: relative;" class="flex-viewport"><div style="width: 1200%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);" class="gallery-wrap">
-					<ul style="width: 560px; height:139px; float: left; display: block;" class="item-container">
-																				
- </ul>
-				</div></div><ul class="flex-direction-nav"></ul></div>
-	<ul class="rig columns-3">
-	<li>
-		
-		<a href="https://wiki.scratch.mit.edu/wiki/Scratch">
-  <img src="scratch.png" alt="lush" style="width:76px;height:88px;border:0;">
-</a>
-		<h3>Scratch</h3>
-		<p><center>Scratch is a free educational programming language that was developed by the Lifelong Kindergarten Group at the Massachusetts Institute of Technology (MIT) with over 11 million registered users and 14 million shared projects.</center></p>
-	</li>
-	<li>
-	  	<a href="https://wiki.scratch.mit.edu/wiki/Scratch">
-  <img src="scratch.png" alt="lush" style="width:76px;height:88px;border:0;">
-</a>
-		<!--<h3> The American Dream</h3>
-		<p>Education is essential when it comes to achieving the "American Dream," which is highly debatable. The American Dream, however, for the Hispanic communiy is very alive. According to a survey taken in Hollywood, only 17% of people believe educational oppurtunities should be provided by non-profit organizations,which is alarming. The lack of education within the Hispanic community is an issue that has to be targeted. Outof 130 responses, only 32 people had a MA or PhD, highlighting the problem.</p>
-	</li>
-	<li>
-	
-	<a href="http://cse-www.pltw.org/~marikmjt/website/html//Computer_science.html">
-  <img src="..image/checkerboard.PNG" alt="lush" style="width:76px;height:88px;border:0;">
-</a>
-		<h3> Checker board</h3>
-		<p>Mobile devices continue to grow in popularity year after year. The Bootstrap framework is feature rich and offers several benefits to those using it. In class we began working with bootstrap do expand our knowledge and become better coders. The screenshot above leades directly to an html file that shows bootstrap code in action. By altering cotainer classes and height the above pattern was created. To learn more about how bootstrap works click the picture above!</p>
-	</li>
-	<li>
-		<a href="https://www.arduino.cc/en/Tutorial/HomePage">
-  <img src="../image/image1.gif" alt="lush" style="width:76px;height:88px;border:0;">
-</a>
-		<h3>Arduino</h3>
-		<p>Arduino is a software company, project, and user community that designs and manufactures computer open-source hardware, open-source software, and microcontroller-based kits for building digital devices and interactive objects that can sense and control physical devices.</p>
-	</li>
-	<li>
-		</div>
+    <div class="photobanner">
+    <h1> About Me!</h1>
+    <img class="first" src="image-1.jpg" alt="pic1" />
+    <img src="image-2.jpg" alt="" />
+    <p>Hi my name is Debby Erazo! I go to Da Vinci Communications and am a rasing senior. I love icecream and traveling.</p>
+    </div>
 
     </body>
--->
+    </html>
